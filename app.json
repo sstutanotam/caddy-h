@@ -26,13 +26,9 @@
     "CADDY_PASS": {
        "description": "配置caddy密码",
        "value": "127.0.0.1"
-     },
-    "V2_WS_PORT": {
-       "description": "输入CADDY ws 监听的端口",
-       "value": "12345"
      }
   },
-  "website": "https://github.com/sstutanota/CADDY-heroku",
-  "repository": "https://github.com/sstutanota/CADDY-heroku",
+  "website": "https://github.com/sstutanota/caddy-h",
+  "repository": "https://github.com/sstutanota/caddy-h",
   "stack": "container"
  }
