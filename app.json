@@ -1,0 +1,38 @@
+{
+  "name": "CADDY",
+  "description": "deploy CADDY to Heroku.",
+  "keywords": ["CADDY"],
+  "env": {
+    "CADDY_VER": {
+       "description": "输入caddy 版本",
+       "value": "0.11.0"
+     },
+    "CADDY_ROOT": {
+       "description": "配置caddy 网站root路径",
+       "value": "/mytestweb"
+     },
+    "CADDY_INDEX": {
+       "description": "配置caddy index文件",
+       "value": "index.html"
+     },
+    "CADDY_LS_IP": {
+       "description": "配置caddy 监听的ip 保持默认值",
+       "value": "0.0.0.0"
+     },
+    "CADDY_USER": {
+       "description": "配置caddy用户",
+       "value": "/mytestws"
+     },
+    "CADDY_PASS": {
+       "description": "配置caddy密码",
+       "value": "127.0.0.1"
+     },
+    "V2_WS_PORT": {
+       "description": "输入CADDY ws 监听的端口",
+       "value": "12345"
+     }
+  },
+  "website": "https://github.com/sstutanota/CADDY-heroku",
+  "repository": "https://github.com/sstutanota/CADDY-heroku",
+  "stack": "container"
+ }
